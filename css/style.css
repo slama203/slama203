@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+/*     
+   body{
+    font-family: 'Source Serif Pro', serif;
+  }  */
+    header{
+        background-color:	#d5d6b7;
+    }
+    .navbar{
+        display: flex;
+         align-items: center;
+         padding:10px 20px;
+     
+     
+     }
+    nav{
+        flex: 1;
+        text-align: left;
+    
+    }
+    nav ul{
+        display: inline-block;
+        list-style-type: none;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    a{
+        text-decoration:none ;
+        color: #6565bf;
+    }
+     .section1 p{
+        color: #6565bf;
+        margin: 25px 30px;
+    }
+    .containar{
+        max-width: 1300px;
+        margin: auto;
+    
+        padding-right: 50px;
+    } 
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content:space-between;
+    
+    }
+    .logo{
+        float: right;
+    }
+    .col-2 img{
+        width:100%;
+        padding: 50px 50px;
+    }
+    .col-2 h1{
+        font-size: 30px;
+        margin: 25px 30px;
+        color: #ff3030;
+    }
+    nav ul li a:hover{
+        color: #ff3030;
+
+        border-radius: 50%;
+    }
+    .btn{
+        display:inline-block;
+        background:#ff3030;
+        color: #fff;
+        padding: 8px 30px;
+        margin:30px 30px;
+        border-radius: 30px;
+    
+    }
+    #btn2{
+        background:#6565bf;
+    }
+
+    /*========================== section one=========================== */
+    .section1{
+        background-image: url(../img/about.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .aboutse{
+        margin:0;
+        text-align: center;
+        padding: 120px 71px;
+        /* z-index: 2; */
+        margin: 0px;
+
+       
+    }
+    .section1 .overlay{
+        width:100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .aboutse h2{
+        color: #ff3030;
+    
+    }
+    .aboutse p{
+        color: #fff; 
+    }
+    .aboutse h2, p, a{
+        z-index: 2;
+    }
+    /* ============================section 2====================== */
+
+
+    
+   .section2{
+            /* position: relative; */
+            background-color: #252577;
+            width: 100%;
+            margin: auto;
+
+    }   
+    .sec2{
+       /* position: absolute;  */
+       display: flex;
+       flex-direction: column;
+      align-items: center;
+       text-align: center;
+      justify-content: space-around;
+        margin: 0px;
+        padding: 20px;
+
+
+    } 
+    .item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        /* margin: 20px;
+        padding: 3px; */
+        color: #fff;
+ 
+    }
+    .child1{
+        padding: 50px;
+    }
+    .par3 p{
+        color:  #ff3030;
+    }
+
+     .item i{
+        border: 8px double #ff3030;
+        padding: 20px;
+        border-radius: 50%;
+        border-spacing: 15px;
+    }
+    .item i:hover{
+       background: linear-gradient( to bottom left, #97c0e9,#ec9ec8 ,#d5e0e0);
+    
+
+    }
+
+    /* ====================section 3=============== */
+    
+    hr.new1 {
+        border: 1px solid #ff3030;
+    }
+    .section3{
+        padding: 8px;
+        margin: 0px;
+        background-color:#252577;
+
+        }
+    .picture{
+       display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content:space-around;
+    padding: 20px 70px;
+    margin: 0px;
+
+    }
+    .picture img{
+        border-radius: 15px;
+    }
+    .sec3{
+        text-align: center;
+        padding: 30px;
+        margin: 30px
+
+    }
+    .sec3 h2{
+        color: #ff3030;
+    }
+    .sec3 p{
+        color: #fff;
+    }
+     /* ===============section 4 ======================*/ 
+     
+      .section4{
+        height:500px ;
+         background-color: #252577;  
+         padding: 25px; 
+        }
+        
+        .section4 .sec4{
+        height: 400px;
+        padding: 50px 200px;
+        display: flex;
+        justify-content: space-between;  
+        align-items: center; 
+    }
+    .section4 h3{
+        color: #ff3030; 
+        text-align: center;
+        font-size: 28px;
+     }
+    .sec4 img{
+        border: solid 2px  #ff3030 ;
+        border-radius: 50%;
+        width: 280px;
+        height: 280px;
+        margin: 50px;
+        box-shadow: 1px 1px 2px 3px #fff ,-1px -1px 2px 3px #fff
+    }
+
+    .sec4 p{
+        border: solid 2px #ff3030;
+        padding: 50px;
+        color: #fff;
+        background-color:#ff3030 ;
+        border: none; border-bottom-left-radius:90px 45px;
+
+    }
+    .circle{
+        color: #ff3030;
+         float: right;
+        margin-right: 450px;
+        margin-top: -58px;
+        transition: all 0.5 ease 0.5;
+    }
+    .circle #twoc:hover{
+        background-color: #ff3030;
+          border-radius: 50%;
+         }
+
+/* =======================section5=================== */
+
+.section5{
+        background-color:#252577;
+        text-align: center;
+        padding: 70px;
+    }
+    .section5 form{
+        height:360px ;
+        display: flex;
+        flex-direction: column; 
+         justify-content: space-between; 
+          align-items: center; 
+    }
+    .section5 h2{
+        color: #ff3030;
+         margin-bottom: 40px;
+          font-size: 28px;
+        }
+    form input{
+        width: 350px;
+        height: 30px;
+    }
+    form button{
+        background-color: #ff3030;
+        color: #fff;
+        border: none;
+        width: 600px;
+        height: 30px;
+        padding: 4px 0px;
+    }
+    form button:hover{
+        background-color: #fff;
+        color: #ff3030;
+    }
+    /* ======================footer================= */
+   
+    footer{
+        background-color: #ff3030;
+        padding: 20px;
+        margin: 0px;
+    }
+    footer{
+        color: #fff;
+    }
+    footer b{
+        color:  #252577;
+    }
+    footer div{
+        float: right;
+        padding: 20px;
+        margin-top: -38px;
+    }
+    footer div i{
+        padding: 12px;
+        margin-top: -38px;
+        cursor: pointer;
+         }
+   
